@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionObject PageHeight="50000" Description="Extension that reload the browser windows a given interval" Label="it.autoReload"> 
+	<Text Label="Reload Interval in Seconds" TargetName="Dimension Name" Initial="3600" Expression="3600"/> 
+	<Initiate value="it.autoReload" Name="Chart.Title"/> 
+	<Initiate Name="Caption.Text" Value="it.autoReload"/> 
+</ExtensionObject>
